@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		83ECAB611DBD9DD400B6FE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ECAB601DBD9DD400B6FE30 /* AppDelegate.swift */; };
-		83ECAB631DBD9DD400B6FE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ECAB621DBD9DD400B6FE30 /* ViewController.swift */; };
+		83ECAB631DBD9DD400B6FE30 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ECAB621DBD9DD400B6FE30 /* FaceViewController.swift */; };
 		83ECAB661DBD9DD500B6FE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ECAB641DBD9DD500B6FE30 /* Main.storyboard */; };
 		83ECAB681DBD9DD500B6FE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83ECAB671DBD9DD500B6FE30 /* Assets.xcassets */; };
 		83ECAB6B1DBD9DD500B6FE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ECAB691DBD9DD500B6FE30 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		83ECAB5D1DBD9DD400B6FE30 /* CS193_FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS193_FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83ECAB601DBD9DD400B6FE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83ECAB621DBD9DD400B6FE30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83ECAB621DBD9DD400B6FE30 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		83ECAB651DBD9DD500B6FE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83ECAB671DBD9DD500B6FE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83ECAB6A1DBD9DD500B6FE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,22 @@
 		83ECAB5F1DBD9DD400B6FE30 /* CS193_FaceIt */ = {
 			isa = PBXGroup;
 			children = (
-				83ECAB601DBD9DD400B6FE30 /* AppDelegate.swift */,
-				83ECAB621DBD9DD400B6FE30 /* ViewController.swift */,
+				83ECAB721DBD9DF500B6FE30 /* SupportingFiles */,
+				83ECAB621DBD9DD400B6FE30 /* FaceViewController.swift */,
 				83ECAB641DBD9DD500B6FE30 /* Main.storyboard */,
+			);
+			path = CS193_FaceIt;
+			sourceTree = "<group>";
+		};
+		83ECAB721DBD9DF500B6FE30 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				83ECAB601DBD9DD400B6FE30 /* AppDelegate.swift */,
 				83ECAB671DBD9DD500B6FE30 /* Assets.xcassets */,
 				83ECAB691DBD9DD500B6FE30 /* LaunchScreen.storyboard */,
 				83ECAB6C1DBD9DD500B6FE30 /* Info.plist */,
 			);
-			path = CS193_FaceIt;
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +104,7 @@
 				TargetAttributes = {
 					83ECAB5C1DBD9DD400B6FE30 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A8HG2YSK5Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83ECAB631DBD9DD400B6FE30 /* ViewController.swift in Sources */,
+				83ECAB631DBD9DD400B6FE30 /* FaceViewController.swift in Sources */,
 				83ECAB611DBD9DD400B6FE30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8HG2YSK5Z;
 				INFOPLIST_FILE = CS193_FaceIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WildCardProductions.CS193-FaceIt";
@@ -272,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8HG2YSK5Z;
 				INFOPLIST_FILE = CS193_FaceIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WildCardProductions.CS193-FaceIt";
