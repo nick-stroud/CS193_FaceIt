@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83BD0A721DC06E8E005AE9A1 /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BD0A711DC06E8E005AE9A1 /* EmotionsViewController.swift */; };
 		83ECAB611DBD9DD400B6FE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ECAB601DBD9DD400B6FE30 /* AppDelegate.swift */; };
 		83ECAB631DBD9DD400B6FE30 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ECAB621DBD9DD400B6FE30 /* FaceViewController.swift */; };
 		83ECAB661DBD9DD500B6FE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ECAB641DBD9DD500B6FE30 /* Main.storyboard */; };
 		83ECAB681DBD9DD500B6FE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83ECAB671DBD9DD500B6FE30 /* Assets.xcassets */; };
 		83ECAB6B1DBD9DD500B6FE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ECAB691DBD9DD500B6FE30 /* LaunchScreen.storyboard */; };
+		83ECAB741DBD9F4C00B6FE30 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ECAB731DBD9F4C00B6FE30 /* FaceView.swift */; };
+		83ECAB761DBDBA1200B6FE30 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ECAB751DBDBA1200B6FE30 /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83BD0A711DC06E8E005AE9A1 /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
 		83ECAB5D1DBD9DD400B6FE30 /* CS193_FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS193_FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83ECAB601DBD9DD400B6FE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83ECAB621DBD9DD400B6FE30 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		83ECAB671DBD9DD500B6FE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83ECAB6A1DBD9DD500B6FE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83ECAB6C1DBD9DD500B6FE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83ECAB731DBD9F4C00B6FE30 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		83ECAB751DBDBA1200B6FE30 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				83ECAB721DBD9DF500B6FE30 /* SupportingFiles */,
 				83ECAB621DBD9DD400B6FE30 /* FaceViewController.swift */,
+				83BD0A711DC06E8E005AE9A1 /* EmotionsViewController.swift */,
+				83ECAB731DBD9F4C00B6FE30 /* FaceView.swift */,
 				83ECAB641DBD9DD500B6FE30 /* Main.storyboard */,
+				83ECAB751DBDBA1200B6FE30 /* FacialExpression.swift */,
 			);
 			path = CS193_FaceIt;
 			sourceTree = "<group>";
@@ -146,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83ECAB631DBD9DD400B6FE30 /* FaceViewController.swift in Sources */,
+				83ECAB761DBDBA1200B6FE30 /* FacialExpression.swift in Sources */,
+				83BD0A721DC06E8E005AE9A1 /* EmotionsViewController.swift in Sources */,
 				83ECAB611DBD9DD400B6FE30 /* AppDelegate.swift in Sources */,
+				83ECAB741DBD9F4C00B6FE30 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +322,7 @@
 				83ECAB711DBD9DD500B6FE30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
